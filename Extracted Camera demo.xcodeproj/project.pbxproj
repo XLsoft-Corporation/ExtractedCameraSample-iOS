@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E61E68A223232740044E9A1 /* KudanAR.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E61E689223232740044E9A1 /* KudanAR.framework */; };
 		665B09CF1ECC589200823C29 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B09CE1ECC589200823C29 /* main.m */; };
 		665B09D21ECC589200823C29 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 665B09D11ECC589200823C29 /* AppDelegate.m */; };
 		665B09D81ECC589200823C29 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 665B09D61ECC589200823C29 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E61E689223232740044E9A1 /* KudanAR.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = KudanAR.framework; sourceTree = "<group>"; };
 		665B09CA1ECC589200823C29 /* Extracted Camera demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Extracted Camera demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		665B09CE1ECC589200823C29 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		665B09D01ECC589200823C29 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -38,6 +40,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				665B09E61ECC58C600823C29 /* libc++.tbd in Frameworks */,
+				3E61E68A223232740044E9A1 /* KudanAR.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +67,7 @@
 		665B09CC1ECC589200823C29 /* Extracted Camera demo */ = {
 			isa = PBXGroup;
 			children = (
+				3E61E689223232740044E9A1 /* KudanAR.framework */,
 				665B09EA1ECC5B7400823C29 /* heartbeat.armodel */,
 				665B09D01ECC589200823C29 /* AppDelegate.h */,
 				665B09D11ECC589200823C29 /* AppDelegate.m */,
@@ -125,6 +129,7 @@
 				TargetAttributes = {
 					665B09C91ECC589200823C29 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 8KP4HEKJWM;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -291,13 +296,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8KP4HEKJWM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Extracted\\ Camera\\ demo",
 				);
 				INFOPLIST_FILE = "Extracted Camera demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -311,13 +318,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8KP4HEKJWM;
 				ENABLE_BITCODE = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
+					"$(PROJECT_DIR)/Extracted\\ Camera\\ demo",
 				);
 				INFOPLIST_FILE = "Extracted Camera demo/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = eu.kudan.ar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
